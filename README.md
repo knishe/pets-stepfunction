@@ -1,5 +1,7 @@
 # pets-stepfunction
 
+A Simple Step functions to show how to call Rest API with step function 
+
 
 ## Create AWS API Gateway
 https://www.youtube.com/watch?v=R1s7Hi3DH7Y
