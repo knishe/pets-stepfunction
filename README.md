@@ -59,8 +59,4 @@ Next steps can be found in the README file at ./pets-stepfunction/README.md
 ```
 
 
-```bash
-sam build --use-container
-sam deploy --guided
-```
 
