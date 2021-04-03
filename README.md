@@ -67,5 +67,6 @@ Next steps can be found in the README file at ./pets-stepfunction/README.md
 sam build 
 ```
 
-## Test step function locally with AWS Cli
+## Test step function locally with AWS CLI
+
 
