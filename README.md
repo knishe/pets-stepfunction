@@ -58,5 +58,14 @@ Output Directory: .
 Next steps can be found in the README file at ./pets-stepfunction/README.md
 ```
 
+## Add deployment configurations
 
+
+## Build pets step function 
+
+```bash
+sam build 
+```
+
+## Test step function locally with AWS Cli
 
