@@ -1,0 +1,32 @@
+{
+    "Comment": "A Hello World example of the Amazon States Language using Pass states",
+    "StartAt": "Hello",
+    "States": {
+      "Hello": {
+        "Type": "Pass",
+        "Result": "Hello",
+        "Next": "GetInput"
+      },
+      "GetInput": {
+        "Next": "World",
+        "Type": "Task",
+        "Resource": "arn:aws:states:::apigateway:invoke",
+        "Parameters": {
+          "ApiEndpoint": "3ka4sygtel.execute-api.us-east-1.amazonaws.com",
+          "Method": "GET",
+          "Headers": {},
+          "Stage": "dev",
+          "Path": "pets",
+          "QueryParameters": {},
+          "RequestBody": {},
+          "AuthType": "NO_AUTH"
+        }
+      },
+      "World": {
+        "Type": "Pass",
+        "Result": "World",
+        "End": true
+      }
+    }
+  }
+  
